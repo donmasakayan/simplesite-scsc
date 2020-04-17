@@ -1,0 +1,39 @@
+.hook-container {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.hook-container .hook-image {
+  width: 64px;
+  margin: auto;
+}
+
+#banner button {
+  color: white !important;
+}
+
+@media screen and (max-width: 480px) {
+  .row {
+    margin: auto;
+  }
+
+  #logo {
+    width: 96px !important;
+  }
+
+  .hook-container {
+    width: 96px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+
+  .hook-container .hook-image {
+    width: 32px;
+    margin: auto;
+  }
+}
